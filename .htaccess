@@ -1,0 +1,17 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteEngine on
+RewriteBase /
+Options +FollowSymlinks
+
+ErrorDocument 404 /404page.php
+
+RewriteRule ^home/$ /index.php [L] 
+
+RewriteRule ^page/([^/].*)?/$ /pages/$1.php [L] 
+RewriteRule ^action/([^/].*)?/([^/].*)?/$ /process/$1/$2.php [L] 
+RewriteRule ^action/([^/].*)?/$ /process/$1.php [L] 
+RewriteRule ^survivor/([^/].*)?/$ /pages/survivor.php?survivor=$1 [L] 
+RewriteRule ^camp/([^/].*)?/$ /pages/camp.php?camp=$1 [L] 
+
+RewriteRule ^survivor/([^/].*)?$ /pages/survivor.php?survivor=$1 [L] 
+RewriteRule ^camp/([^/].*)?$ /pages/camp.php?camp=$1 [L] 

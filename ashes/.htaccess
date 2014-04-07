@@ -1,0 +1,5 @@
+RewriteBase /
+
+ErrorDocument 404 /404.php 
+RewriteEngine on
+Options +FollowSymlinks

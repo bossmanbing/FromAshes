@@ -1,0 +1,249 @@
+body{
+	background: #fafafa;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 10pt;
+}
+
+input{
+	font-size:8pt;
+}
+
+a{
+	color: #222288;
+	text-decoration: none;
+	font-weight:700;
+}
+
+button a{
+	color:#000000;
+	font-weight:300;
+	font-size:8pt;
+}
+
+.clear{
+	clear:both;
+}
+
+.smalltext{
+	margin-left:20px;
+	font-size:8pt;
+	font-style:italic;
+}
+
+.create-label{
+	float: left;
+	width:135px;
+	text-align:right;
+	margin-right:8px;
+}
+
+#leftCol{
+	width:400px;
+	float:left;
+	margin: 0 30px 0 0;
+}
+
+#rightCol{
+	width:49%;
+	float:left;
+}
+
+#container{
+
+	margin: 5px 20px;
+}
+
+#head{
+}
+
+#logo{
+	float: left;
+	margin: 0 0 5px 0;
+	width:800px;
+	height:95px;
+}
+
+#nav{
+	float: left;
+}
+
+#nav a{
+	color: #222288;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#nav li{
+	float: left;
+	margin: 0 45px 3px 0;
+}
+
+#login{
+	background: #fafafa;
+	float:right;
+	font-size:10pt;
+	position:absolute;
+	right: 20px;
+	top: 10px;
+}
+
+#login a{
+	color: #222288;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.login-input{
+	float:right;
+}
+
+#content{
+	margin: 0 auto;
+	min-height:400px;
+}
+
+#footer{
+	font-size: 8pt;
+	margin:40px 0 0 0;
+}
+
+#create-survivor{
+	width:300px;
+	margin: 0 auto;
+}
+	
+#create-submit{
+	float:right;
+}
+
+#user-control{
+	float:left;
+	width:185px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-radius: 3px;
+	margin: 0 20px 0 0;
+}
+
+#user-control a{
+	color: #222288;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#user-control ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#user-control li{
+	margin: 5px 0;
+}
+
+#user-control li:first-child{
+	font-size:11pt;
+}
+
+#page-content{
+	float:left;
+	position:absolute;
+	margin-left: 195px;
+	padding-right:20px;
+	min-width: 910px;
+}
+
+#camp-messages{
+	float:left;
+	width:600px;
+}
+
+#camp-members{
+	float:left;
+	width:300px;
+	padding: 0 5px;
+}
+
+
+.camp-msg{
+	margin: 3px 0;
+	padding: 2px;
+	border:1px solid #9f9f9f;
+	border-radius:3px;
+	width: 580px;
+}
+
+.camp-mem{
+	margin: 3px 0;
+	padding: 2px 5px;
+	border:1px solid #9f9f9f;
+	border-radius:3px;
+	width: 280px;
+	height:20px;
+}
+
+.msg-head{
+	font-size: 9pt;
+	padding: 4px 2px;
+	border-bottom: 1px solid #9f9f9f;
+}
+
+.msg-time{
+	float:right;
+}
+
+.cmp-msg-con{
+	padding: 3px 3px 3px 20px;
+}
+
+.camp-upd{
+	padding: 3px;
+}
+
+.action{
+	padding: 3px 10px;
+	margin: 10px 0;
+	border: 1px solid #9f9f9f;
+	border-radius: 3px;
+	background: #ffffff;
+}
+
+.action input{
+	width: 80px;
+}
+
+.action-active{
+	background: #66cc66;
+}
+
+#survivor-desc{
+	float:left;
+	width:600px;
+}
+
+#supporter-list{
+	float:left;
+	width:300px;
+	margin: 0 0 30px 0;
+	padding: 0 5px;
+}
+
+.supporter{
+	margin: 3px 0;
+	padding: 2px 5px;
+	border:1px solid #9f9f9f;
+	border-radius:3px;
+	width: 280px;
+	height:20px;
+}
+
+.control-exile{
+	float:right;
+}
