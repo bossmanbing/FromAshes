@@ -2,8 +2,7 @@
 
 /* CONNECT TO DATABASE - copy for local and live servers - */
 	//$db = new mysqli('localhost', 'root', '', 'ashes');
-	//$db = new mysqli('mysql10.000webhost.com', 'a8999301_ashes', 'Fry!Br34d', 'a8999301_ashes');
-	 $db = new mysqli('localhost','ashes_db','hhgi(*2DDfya00987','ashes');
+	 $db = new mysqli('/*server*/','/* database */','/* password */','/* user */');
 
 if($db->connect_errno > 0){
     die('Unable to connect to database [' . $db->connect_error . ']');
